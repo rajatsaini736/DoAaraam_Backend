@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  h2 Routes : 
+  p <b>Index Route </b> https://doaaraam-server.herokuapp.com     
+  p <b>Home Route</b> https://doaaraam-server.herokuapp.com/home  <b>(GET request with authorization headers.)</b>     
+  p <b>Login Route </b> https://doaaraam-server.herokuapp.com/auth/login  <b>(POST request with email and password fields.)</b>     
+  p <b>Signup Route </b> https://doaaraam-server.herokuapp.com/auth/register  <b>(POST request with name,email and password fields.)</b>  
+  p <b>List Route </b> https://doaaraam-server.herokuapp.com/lists  <b>(GET request.)</b>     
+
+
+
